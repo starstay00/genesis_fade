@@ -1,0 +1,12 @@
+* {margin:0; padding:0; vertical-align: middle; box-sizing: border-box;}
+html,body {width:100%; height:100%;}
+ul,li {list-style: none;}
+body {
+    font: normal 14px/1 'Montserrat', 'Roboto'; 
+    color:rgb(50,50,50); 
+    background: rgb(255,255,255);
+}
+h1,h2,h3,h4,h5,h6,strong,b {font-weight:normal;}
+a {text-decoration: none; color:rgb(50,50,50);}
+    /* body {font:굵기(400기본) 크기/줄간격(1->100%) '글꼴1,''글꼴2';} */
+    /*  body {font:400 16px/1 '굴림', 'arial';} */

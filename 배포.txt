@@ -1,0 +1,72 @@
+리파지토리
+genesis
+
+오리진(리파지토리 웹주소 URL)
+https://github.com/starstay00/genesis.git
+
+
+명령어 우분투(윈도우에서 리눅스 명령어를 쓸수있게 만든 프로그램)
+gitbash 설치
+
+깃허브(버전관리==형상관리,협업)
+// 1. 깃설정
+    git init
+
+// 2. 목록보기(숨김목록까지 모두 보기)
+    ls -la
+
+// 3. 환경설정
+    웹브라우저 로그인 상태에서 본인 아이디(name) / 이메일(email) 등록
+    git config user.name "starstay00" 
+    git config user.email "starstay00@gmail.com"
+
+        확인
+        git config user.name
+        git config user.email
+
+// 4. 원격으로 오리진 등록(추가)
+    주소 : https://github.com/starstay00/genesis.git
+
+    추가
+    git remote add origin https://github.com/starstay00/genesis.git
+    
+        확인
+        git remote -v
+
+        햐
+        오리진 주소가 잘못 기록된 경우 삭제,
+            git remote remove origin
+        
+        다시 추가
+        git remote add origin https://github.com/starstay00/genesis.git
+        
+        확인
+        git remote -v
+
+                            ** http:// 일반 프로토콜
+                               https:// ssl 웹보안인증서     => 서로간 정보이동 가능하기 위한 정책 (CORS): 프록시 서버 / 오리진 헤더코딩
+
+// 5. 스테이징
+    git add .
+
+// 6. 커밋
+    git commit -m '제네시스 메인슬라이드'
+
+// 7. 푸쉬
+    git push origin master
+
+// 8. 인증이 되어야 push 완료됨
+    windows => 환경설정 => '자격증명' 검색 => 'windows 자격증명관리' 클릭 => github 웹주소 : 본인 user.name / user.password가 저장되어 관리
+    한 컴퓨터에서 여러 사용자가 사용시 추가 등록해서 사용가능
+
+// 9. 깃허브 사이트 에서 새로고침 => 올라온 파일 확인
+    푸쉬한 모든 데이터 확인
+
+// 10. settings
+
+// 11. 좌측 카테고리 메뉴 Pages
+
+// 12. GitHub Pages => Branch => master 선택 => save => 1~3분 대기 후 새로고침
+
+// 13. 상단에 배포주소 나타남 => Visit Site 클릭 : 배포된 홈페이지 브라우저에 나타남
+    https://starstay00.github.io/genesis/
